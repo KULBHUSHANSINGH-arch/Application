@@ -33,13 +33,13 @@ function App() {
       <Routes>
         {/* Public Route */}
         <Route path="/login" element={<PublicRoute><Login /></PublicRoute>} />
+          <Route path="/registration" element={ <PublicRoute><Registration /></PublicRoute>} />
 
         {/* Sidebar ke sath Protected Routes */}
         <Route element={<ProtectedRoutes><Layout /></ProtectedRoutes>}>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/recent_blog" element={<Recent_Blog/>} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/registration" element={<Registration />} />
           <Route path="/createblog" element={<Create_Blog />} />
         </Route>
 
