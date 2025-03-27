@@ -33,8 +33,8 @@ const Create_Blog = () => {
         padding: "20px",
         borderRadius: "10px",
         backgroundColor: "#fff",
-        width: "700px",
-        margin: "20px auto",
+        width: "950px",
+        margin: "5px auto",
         boxShadow: "0px 2px 10px rgba(0, 0, 0, 0.1)",
       }}
     >

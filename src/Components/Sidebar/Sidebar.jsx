@@ -102,7 +102,7 @@ const Sidebar = ({ children }) => {
           width: drawerWidth,
           transition: "width 0.3s ease",
           top: "64px",
-          height: "100vh",
+          minHeight: "100vh",
         },
       }}
     >
@@ -146,7 +146,7 @@ const Sidebar = ({ children }) => {
     </Drawer>
 
     {/* Main Content */}
-    <Box component="main" sx={{ flexGrow: 1, transition: "margin 0.3s", marginLeft: `${drawerWidth}px`, marginTop: "64px" }}>
+    <Box component="main" sx={{ flexGrow: 1, transition: "margin 0.3s",  marginTop: "64px" }}>
       {children}
     </Box>
   </Box>
